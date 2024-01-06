@@ -1,2 +1,2 @@
 # scratchCodeMaster.github.io
-Testing website
+[Testing website](scratchCodeMaster.github.io)
