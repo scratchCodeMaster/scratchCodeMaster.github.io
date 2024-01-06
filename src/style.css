@@ -1,4 +1,4 @@
-body {
+:root {
   font-family: var(--font);
   --font: monospace;
 }
