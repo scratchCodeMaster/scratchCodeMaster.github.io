@@ -3,7 +3,7 @@ const $ = (s) => {
 };
 
 $.props = {
-  [evt] = (evt, callback, s=null) {
+  evt = (evt, callback, s=null) {
     if (s === null) s = window;
     
     s.addEventListener(evt, callback);
