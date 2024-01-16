@@ -11,5 +11,3 @@ $.props = {
     s.addEventListener(evt, callback);
   }
 };
-
-$.props.evt()
