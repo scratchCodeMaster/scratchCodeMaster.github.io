@@ -3,9 +3,13 @@ const $ = (s) => {
 };
 
 $.props = {
-  evt = (evt, callback, s=null) {
-    if (s === null) s = window;
+  evt = (evt, callback, s=null) => {
+    if (s === null) s = window; else {
+      s = $(s);
+    }
     
     s.addEventListener(evt, callback);
   }
 };
+
+$.props.evt()
